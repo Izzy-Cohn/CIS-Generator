@@ -1,0 +1,154 @@
+{
+    "template_name": "Real Estate Transaction Summary",
+    "document_type": "real_estate",
+    "version": "1.0",
+    "fields": [
+        "property_address",
+        "property_description",
+        "property_type",
+        "parcel_number",
+        "square_footage",
+        "transaction_date",
+        "closing_date",
+        "transaction_amount",
+        "purchase_price",
+        "loan_amount",
+        "interest_rate",
+        "term_years",
+        "monthly_payment",
+        "buyer_name",
+        "seller_name",
+        "lender_name",
+        "borrower_name"
+    ],
+    "field_schema": {
+        "property_address": {
+            "type": "string",
+            "description": "Full address of the property"
+        },
+        "property_description": {
+            "type": "string",
+            "description": "Legal description of the property"
+        },
+        "property_type": {
+            "type": "string",
+            "description": "Type of property (residential, commercial, etc.)"
+        },
+        "parcel_number": {
+            "type": "string",
+            "description": "Tax parcel identification number"
+        },
+        "square_footage": {
+            "type": "number",
+            "description": "Square footage of the property"
+        },
+        "transaction_date": {
+            "type": "date",
+            "description": "Date of the transaction",
+            "format": "%B %d, %Y"
+        },
+        "closing_date": {
+            "type": "date",
+            "description": "Date of closing",
+            "format": "%B %d, %Y"
+        },
+        "transaction_amount": {
+            "type": "currency",
+            "description": "Total amount of the transaction"
+        },
+        "purchase_price": {
+            "type": "currency",
+            "description": "Purchase price of the property"
+        },
+        "loan_amount": {
+            "type": "currency",
+            "description": "Amount of the loan"
+        },
+        "interest_rate": {
+            "type": "percentage",
+            "description": "Interest rate of the loan"
+        },
+        "term_years": {
+            "type": "number",
+            "description": "Term of the loan in years"
+        },
+        "monthly_payment": {
+            "type": "currency",
+            "description": "Monthly payment amount"
+        },
+        "buyer_name": {
+            "type": "string",
+            "description": "Name of the buyer"
+        },
+        "seller_name": {
+            "type": "string",
+            "description": "Name of the seller"
+        },
+        "lender_name": {
+            "type": "string",
+            "description": "Name of the lender"
+        },
+        "borrower_name": {
+            "type": "string",
+            "description": "Name of the borrower"
+        }
+    },
+    "structure": {
+        "sections": [
+            {
+                "title": "Property Information",
+                "fields": [
+                    "property_address",
+                    "property_description",
+                    "property_type",
+                    "parcel_number",
+                    "square_footage"
+                ]
+            },
+            {
+                "title": "Transaction Details",
+                "fields": [
+                    "transaction_date",
+                    "closing_date",
+                    "purchase_price",
+                    "transaction_amount"
+                ]
+            },
+            {
+                "title": "Financing Information",
+                "fields": [
+                    "loan_amount",
+                    "interest_rate",
+                    "term_years",
+                    "monthly_payment",
+                    "lender_name"
+                ]
+            },
+            {
+                "title": "Parties",
+                "fields": [
+                    "buyer_name",
+                    "seller_name",
+                    "borrower_name"
+                ]
+            }
+        ]
+    },
+    "mapping": {
+        "property_address": "property.address",
+        "property_description": "property.legal_description",
+        "property_type": "property.property_type",
+        "parcel_number": "property.parcel_number",
+        "square_footage": "property.square_footage",
+        "transaction_date": "dates.agreement_date",
+        "closing_date": "dates.closing_date",
+        "purchase_price": "monetary_values.purchase_price",
+        "loan_amount": "monetary_values.loan_amount",
+        "interest_rate": "monetary_values.interest_rate",
+        "monthly_payment": "monetary_values.monthly_payment",
+        "buyer_name": "parties.buyer",
+        "seller_name": "parties.seller",
+        "lender_name": "parties.lender",
+        "borrower_name": "parties.borrower"
+    }
+} 

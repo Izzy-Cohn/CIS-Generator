@@ -1,0 +1,91 @@
+{
+    "extraction_patterns": {
+        "property_address": {
+            "pattern": "(?i)property\\s+address:?\\s*([^,\\n\\r\\.]{3,100}(?:,\\s*[^,\\n\\r\\.]{3,50}){1,3})",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "purchase_price": {
+            "pattern": "(?i)purchase\\s+price:?\\s*\\$?([0-9,]+(?:\\.[0-9]{2})?)",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "closing_date": {
+            "pattern": "(?i)closing\\s+date:?\\s*([A-Za-z]+\\s+\\d{1,2}(?:st|nd|rd|th)?,?\\s+\\d{4}|(?:\\d{1,2}[/-]){2}\\d{2,4})",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "loan_amount": {
+            "pattern": "(?i)loan\\s+amount:?\\s*\\$?([0-9,]+(?:\\.[0-9]{2})?)",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "interest_rate": {
+            "pattern": "(?i)interest\\s+rate:?\\s*([0-9\\.]+)%",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "term_years": {
+            "pattern": "(?i)(?:term|period)\\s+of\\s+([0-9]+)\\s+years",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "monthly_payment": {
+            "pattern": "(?i)monthly\\s+(?:payment|installment):?\\s*\\$?([0-9,]+(?:\\.[0-9]{2})?)",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "legal_description": {
+            "pattern": "(?i)legal\\s+description:?\\s*\\n*((?:[^\\n\\r]{3,200}\\n*){1,10})",
+            "case_insensitive": true,
+            "multiline": true
+        },
+        "parcel_number": {
+            "pattern": "(?i)(?:parcel|tax|assessor(?:'s)?)\\s+(?:id|identification|number):?\\s*([^,\\n\\r\\.]{3,50})",
+            "case_insensitive": true,
+            "multiline": true
+        }
+    },
+    "entity_rules": {
+        "people": ["PERSON"],
+        "organizations": ["ORG"],
+        "locations": ["GPE", "LOC"],
+        "dates": ["DATE"]
+    },
+    "spacy_model": "en_core_web_sm",
+    "field_formats": {
+        "purchase_price": {
+            "type": "currency",
+            "symbol": "$"
+        },
+        "loan_amount": {
+            "type": "currency",
+            "symbol": "$"
+        },
+        "monthly_payment": {
+            "type": "currency",
+            "symbol": "$"
+        },
+        "closing_date": {
+            "type": "date",
+            "format": "%B %d, %Y"
+        },
+        "interest_rate": {
+            "type": "percentage",
+            "decimal_places": 3
+        }
+    },
+    "default_values": {
+        "property_address": "N/A",
+        "purchase_price": "$0.00",
+        "closing_date": "",
+        "buyer_name": "N/A",
+        "seller_name": "N/A",
+        "loan_amount": "$0.00",
+        "interest_rate": "0%",
+        "term_years": "0",
+        "monthly_payment": "$0.00",
+        "legal_description": "N/A",
+        "parcel_number": "N/A"
+    }
+} 
