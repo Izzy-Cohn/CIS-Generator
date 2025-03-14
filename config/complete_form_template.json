@@ -2,9 +2,8 @@
   "CIS": {
     "projectName": "",
     "applicablePrograms": ["NYCIDA", "BNYC"],
-    "from": {
-      "projectAttorney": "",
-      "date": ""
+    "from": "",
+    "date": ""
     },
     "generalInformation": {
       "program": {
@@ -14,8 +13,8 @@
             "Industrial/Bond",
             "Comm/Straight Lease", 
             "Civic Facility",
-            "Hudson Yards", 
-            "Comm/Constr Govt. Bonds", 
+            "Hudson Yards Comm/Constr",
+            "Govt. Bonds", 
             "Comm. Growth/Straight Lease"
           ]
         },
@@ -36,11 +35,11 @@
         "title": "",
         "address": {
           "street": "",
-          "state": "NY"
-        },
-        "telephone": "",
-        "email": "",
-        "fax": ""
+          "state": "NY",
+          "telephone": "",
+          "email": "",
+          "fax": ""
+        }
       },
       "realEstateHoldingCompany": {
         "name": "",
@@ -60,6 +59,7 @@
         "ownersInformation": "See ATTACHMENT A-2"
       },
       "companyCounsel": {
+        "lawFirm": "",
         "attorney": "",
         "address": "",
         "telephone": "",
@@ -90,13 +90,15 @@
       "options": [
         "acquisition of Project Facility",
         "acquisition of machinery/equipment",
-        "demolition other site work",
+        "demolition",
+        "other site work",
         "ground-up construction",
         "construction/installation of Peaking Unit(s); dock/wharf",
         "construction of square-foot addition to existing improvements",
-        "renovations to existing improvements"
+        "renovations to existing improvements",
+        "refinancingTaxableLoan"
       ],
-      "demolitionOtherSiteWorkSpecify": "",
+      "otherSiteWorkSpecify": "",
       "renovationsToExistingImprovements": {
         "options": [
           "gut (i.e., renovation down to core and shell)",
@@ -105,12 +107,11 @@
         ],
         "otherSpecify": ""
       },
-      "refinancingTaxableLoan": false,
       "completionDate": ""
     },
     "projectOccupancy": {
-      "primaryOccupancy": {
-        "occupiedByCompanyAffiliates": {
+      "occupiedByCompany/Affiliates": {
+        "industrial": {
           "industrial": {
             "selected": false,
             "specify": ""
