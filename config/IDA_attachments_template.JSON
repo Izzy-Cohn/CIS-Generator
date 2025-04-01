@@ -1,0 +1,155 @@
+{
+    "attachments": {
+        "attachmentA1": {
+            "title": "INDIVIDUALS/ENTITIES OWNING/CONTROLLING REAL ESTATE HOLDING COMPANY/DEVELOPMENT ENTITY",
+        "individualOwners": [
+            {
+            "name": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ],
+        "entityOwners": [
+            {
+            "name": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ],
+        "ownersOfTenPercentEntities": [
+            {
+            "tenPercentEntityNameAndActualPercentage": "",
+            "individualAndEntityOwners": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ]
+        },
+        "attachmentA2": {
+        "title": "INDIVIDUALS/ENTITIES OWNING/CONTROLLING PROJECT/OPERATING COMPANY",
+        "individualOwners": [
+            {
+            "name": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ],
+        "entityOwners": [
+            {
+            "name": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ],
+        "ownersOfTenPercentEntities": [
+            {
+            "tenPercentEntityNameAndActualPercentage": "",
+            "individualAndEntityOwners": "",
+            "percentageOwnershipOrControl": ""
+            }
+        ]
+        },
+        "attachmentB": {
+        "title": "MULTIPLE TAX LOTS",
+        "taxLots": [
+            {
+            "realPropertyInterest": {
+                "options": ["fee title", "ground lease", "space lease(s)"]
+            },
+            "isFeeCondo": {
+                "selected": false
+            },
+            "streetAddress": "",
+            "borough": "",
+            "taxBlock": "",
+            "taxLotREUCLot": "",
+            "landlordContactInfo": "",
+            "spaceLeaseFloorNumbers": ""
+            }
+        ]
+        },
+        "attachmentC": {
+        "title": "MULTIPLE BOND SERIES",
+        "bondSeries": {
+            "name": "",
+            "taxStatus": {
+            "options": ["BONDS ARE TAX-EXEMPT", "BONDS ARE TAXABLE"]
+            },
+            "offeringType": {
+            "options": [
+                "BONDS OFFERED BY PRIVATE PLACEMENT",
+                "BONDS OFFERED BY PUBLIC OFFERING",
+                "BONDS DIRECTLY PURCHASED"
+            ],
+            "placementAgentName": "",
+            "underwriterName": "",
+            "purchaserName": ""
+            },
+            "rating": {
+            "areRated": {
+                "selected": false,
+                "rating": ""
+            }
+            },
+            "interestRate": {
+            "options": [
+                "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX",
+                "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE"
+            ]
+            },
+            "bondType": {
+            "options": ["SERIAL BOND", "TERM BOND"],
+            "sinkingFundInstallments": {
+                "options": [
+                "there are no sinking fund installments",
+                "there are sinking fund installments"
+                ]
+            }
+            },
+            "security": {
+            "options": ["BONDS ARE UNSECURED", "BONDS ARE SECURED"],
+            "securedBy": {
+                "firstMortgage": {
+                "selected": false,
+                "amount": ""
+                },
+                "secondMortgage": {
+                "selected": false,
+                "amount": ""
+                },
+                "debtServiceReserveFund": false,
+                "guaranty": false,
+                "creditEnhancement": {
+                "selected": false,
+                "specify": ""
+                }
+            }
+            },
+            "swapArrangement": {
+            "hasBenefitOfSwap": {
+                "selected": false,
+                "counterpartyName": ""
+            }
+            }
+        }
+        },
+        "attachmentD": {
+        "title": "PRE-APPROVED SUBLEASES",
+        "subleases": [
+            {
+            "subtenant": {
+                "name": "",
+                "permittedUse": "",
+                "term": {
+                "from": "",
+                "to": ""
+                },
+                "mayTermBeRenewed": {
+                "selected": false,
+                "renewalRights": ""
+                },
+                "squareFeet": "",
+                "willSubleaseAccrueAgainstLimitation": {
+                "selected": false
+                }
+            }
+            }
+        ]
+        }
+    }
+}
