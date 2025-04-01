@@ -75,6 +75,7 @@
         "selected": false
       },
       "Other": {
+        "selected": false,
         "specify": ""
       }
     },
@@ -95,178 +96,205 @@
       "selected": false
     },
     "demolition": {
-      "otherSiteWork": {
-        "selected": false,
-        "specify": ""
-      }
+      "selected": false
+    },
+    "otherSiteWork": {
+      "selected": false,
+      "specify": ""
     },
     "ground-up construction": {
       "selected": false
     },
-    "construction/installation of": [
-      "Peaking Unit(s)",
-      "dock/wharf"
-    ],
+    "construction/installation of": {
+      "Peaking Unit(s)":{
+        "selected": false
+      },
+      "dock/wharf":{
+        "selected": false
+      }
+    },
     "construction of square-foot addition to existing improvements": {
       "selected": false
     },
     "renovations to existing improvements": {
-      "selected": false
+      "selected": false,
+      "gut (i.e., renovation down to core and shell)":{
+        "selected": false
+      },
+      "tenant fit-out":{
+        "selected": false
+      },
+      "other":{
+        "selected": false,
+        "specify": ""
+      }
     },
     "refinancingTaxableLoan": {
       "selected": false
-    }
+    },
+    "Completion Date for Initial Project Activities": ""
   },
   "projectOccupancy": {
     "occupiedByCompany/Affiliates": {
+      "selected": false,
       "industrial": {
-        "industrial": {
+        "selected": false,
+        "specify": ""
+      },
+      "notForProfit": {
+        "selected": false,
+        "secondary school": {
+          "selected": false
+        },
+        "higher education": {
+          "selected": false
+        },
+        "hospital/clinic": {
+          "selected": false
+        },
+        "social service organization": {
+          "selected": false
+        },
+        "cultural organization": {
+          "selected": false
+        },
+        "other": {
           "selected": false,
           "specify": ""
-        },
-        "notForProfit": {
-          "secondary school": {
-            "selected": false
-          },
-          "higher education": {
-            "selected": false
-          },
-          "hospital/clinic": {
-            "selected": false
-          },
-          "social service organization": {
-            "selected": false
-          },
-          "cultural organization": {
-            "selected": false
-          },
-          "other": {
-            "selected": false
-          }
-        },
-        "commercial": {
-          "office": {
-            "selected": false
-          },
-          "retail": {
-            "selected": false
-          },
-          "other": {
-            "selected": false
-          }
         }
       },
-      "facilityForRentUp": {
-        "conditionsForSubleasingApply": {
-          "selected": false,
-          "seeSection": ""
+      "commercial": {
+        "selected": false,
+        "office": {
+          "selected": false
         },
-        "idaBnycConsentRequired": {
-          "selected": false,
-          "seeSection": ""
+        "retail": {
+          "selected": false
         },
-        "idaBnycWaivesRightToConsent": {
+        "other": {
           "selected": false,
-          "days": ""
+          "specify": ""
         }
+      }
+    },
+    "facilityForRentUp": {
+      "selected": false,
+      "conditionsForSubleasingApply": {
+        "selected": false,
+        "seeSection": ""
+      },
+      "idaBnycConsentRequired": {
+        "selected": false,
+        "seeSection": ""
+      },
+      "idaBnycWaivesRightToConsent": {
+        "selected": false,
+        "days": ""
       }
     }
   },
   "projectType": {
     "straightLease": {
-      "selected": false,
-      "totalProject": ""
-    },
-    "bondFinancing": {
-      "selected": false,
-      "aggregatePrincipal": "",
-      "issuer": {
-        "IDA": {
-          "selected": false
-        },
-        "BNYC": {
-          "selected": false
-        }
-      },
-      "bondTrustee": "",
-      "yield": "",
-      "repaymentMechanism": {
-        "lease rental payments": {
-          "selected": false
-        },
-        "loan payments": {
-          "selected": false
-        },
-        "installment-sale payments": {
-          "selected": false
-        }
-      },
-      "taxExempt": {
-        "isAnyPortionTaxExempt": {
-          "selected": false,
-          "type": {
-            "small-issue manufacturing": {
-              "selected": false
-            },
-            "501(c)(3)": {
-              "selected": false
-            },
-            "exempt facility": {
-              "selected": false
-            },
-            "governmental": {
-              "selected": false
-            },
-            "other": {
-              "selected": false
-            }
-          }
-        }
-      },
-      "taxable": {
-        "isAnyPortionTaxable": {
-          "selected": false,
-          "basisForExemption": {
-            "secured by a bank letter of credit": {
-              "selected": false
-            },
-            "privately placed": {
-              "selected": false
-            }
-          }
-        }
-      },
-      "refundingBonds": {
-        "areAllOrPartRefundingBonds": {
-          "selected": false,
-          "portionUsedForRefunding": ""
-        }
-      }
+      "selected": true,
+      "totalProjectCost": ""
     }
+
   },
   "projectPremises": {
-    "realPropertyInterest": {
-      "fee title": {
-        "selected": false
+    "numberOfTaxLots": "",
+    "taxLotNumber1": {
+      "realPropertyInterest": {
+        "fee title": {
+          "selected": false,
+          "condo": {
+            "selected": false
+          }
+        },
+        "ground lease": {
+          "selected": false
+        },
+        "space lease(s)": {
+          "selected": false,
+          "floorNumbers (entire floors)": "",
+          "floorNumbers (partial floors)": ""
+        }
       },
-      "ground lease": {
-        "selected": false
+      "streetAddress": "",
+      "borough": "",
+      "taxBlock": "",
+      "taxLot": "",
+      "landlordContactInfo": ""
+    },
+    "taxLotNumber2": {
+      "realPropertyInterest": {
+        "fee title": {
+          "selected": false,
+          "condo": {
+            "selected": false
+          }
+        },
+        "ground lease": {
+          "selected": false
+        },
+        "space lease(s)": {
+          "selected": false,
+          "floorNumbers (entire floors)": "",
+          "floorNumbers (partial floors)": ""
+        }
       },
-      "space lease(s)": {
-        "selected": false
-      }
+      "streetAddress": "",
+      "borough": "",
+      "taxBlock": "",
+      "taxLot": "",
+      "landlordContactInfo": ""
     },
-    "isFeeCondo": {
-      "selected": false
+    "taxLotNumber3": {
+      "realPropertyInterest": {
+        "fee title": {
+          "selected": false,
+          "condo": {
+            "selected": false
+          }
+        },
+        "ground lease": {
+          "selected": false
+        },
+        "space lease(s)": {
+          "selected": false,
+          "floorNumbers (entire floors)": "",
+          "floorNumbers (partial floors)": ""
+        }
+      },
+      "streetAddress": "",
+      "borough": "",
+      "taxBlock": "",
+      "taxLot": "",
+      "landlordContactInfo": ""
     },
-    "streetAddress": "",
-    "borough": "",
-    "taxBlock": "",
-    "taxLotREUCLot": "",
-    "landlordContactInfo": "",
-    "spaceLeaseFloorNumbers": "",
-    "multipleTaxLots": "See ATTACHMENT B"
-  },
+    "taxLotNumber4": {
+      "realPropertyInterest": {
+        "fee title": {
+          "selected": false,
+          "condo": {
+            "selected": false
+          }
+        },
+        "ground lease": {
+          "selected": false
+        },
+        "space lease(s)": {
+          "selected": false,
+          "floorNumbers (entire floors)": "",
+          "floorNumbers (partial floors)": ""
+        }
+      },
+      "streetAddress": "",
+      "borough": "",
+      "taxBlock": "",
+      "taxLot": "",
+      "landlordContactInfo": ""
+    }
+  },  
   "financingDetails": {
     "bonds": {
       "bondSeries": "",
