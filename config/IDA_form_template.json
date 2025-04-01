@@ -7,15 +7,27 @@
   },
   "generalInformation": {
     "program": {
-      "options": [
-        "Industrial/Straight Lease",
-        "Industrial/Bond",
-        "Comm/Straight Lease", 
-        "Civic Facility",
-        "Hudson Yards Comm/Constr",
-        "Govt. Bonds", 
-        "Comm. Growth/Straight Lease"
-      ]
+      "Industrial/Straight Lease": {
+        "selected": false
+      },
+      "Industrial/Bond": {
+        "selected": false
+      },
+      "Comm/Straight Lease": {
+        "selected": false
+      },
+      "Civic Facility": {
+        "selected": false
+      },
+      "Hudson Yards Comm/Constr": {
+        "selected": false
+      },
+      "Govt. Bonds": {
+        "selected": false
+      },
+      "Comm. Growth/Straight Lease": {
+        "selected": false
+      }
     },
     "closingDate": "",
     "projectManager": "",
@@ -59,12 +71,12 @@
     },
     "projectTermExpiration": "",
     "coreDocument": {
-      "options": [
-        "Straight Lease Lease",
-        {"Other": {
-          "specify": ""
-        }}
-      ]
+      "Straight Lease Lease": {
+        "selected": false
+      },
+      "Other": {
+        "specify": ""
+      }
     },
     "datesOfAuthorizingActions": {
       "preliminaryInducementEligibility": "",
@@ -76,37 +88,34 @@
     }
   },
   "initialProjectActivities": {
-    "options": [
-      "acquisition of Project Facility",
-      "acquisition of machinery/equipment",
-      {
-        "demolition": {
-          "otherSiteWork": {
-            "selected": false,
-            "specify": ""
-        }}
-      },
-      "ground-up construction",
-      {
-        "construction/installation of": [
-          "Peaking Unit(s)",
-          "dock/wharf"
-        ]
-      },  
-      "construction of square-foot addition to existing improvements",
-      "renovations to existing improvements",
-      "refinancingTaxableLoan"
-    ],
-    "otherSiteWorkSpecify": "",
-    "renovationsToExistingImprovements": {
-      "options": [
-        "gut (i.e., renovation down to core and shell)",
-        "tenant fit-out",
-        "other"
-      ],
-      "otherSpecify": ""
+    "acquisition of Project Facility": {
+      "selected": false
     },
-    "completionDate": ""
+    "acquisition of machinery/equipment": {
+      "selected": false
+    },
+    "demolition": {
+      "otherSiteWork": {
+        "selected": false,
+        "specify": ""
+      }
+    },
+    "ground-up construction": {
+      "selected": false
+    },
+    "construction/installation of": [
+      "Peaking Unit(s)",
+      "dock/wharf"
+    ],
+    "construction of square-foot addition to existing improvements": {
+      "selected": false
+    },
+    "renovations to existing improvements": {
+      "selected": false
+    },
+    "refinancingTaxableLoan": {
+      "selected": false
+    }
   },
   "projectOccupancy": {
     "occupiedByCompany/Affiliates": {
@@ -116,23 +125,35 @@
           "specify": ""
         },
         "notForProfit": {
-          "options": [
-            "secondary school",
-            "higher education",
-            "hospital/clinic",
-            "social service organization",
-            "cultural organization",
-            "other"
-          ],
-          "otherSpecify": ""
+          "secondary school": {
+            "selected": false
+          },
+          "higher education": {
+            "selected": false
+          },
+          "hospital/clinic": {
+            "selected": false
+          },
+          "social service organization": {
+            "selected": false
+          },
+          "cultural organization": {
+            "selected": false
+          },
+          "other": {
+            "selected": false
+          }
         },
         "commercial": {
-          "options": [
-            "office",
-            "retail",
-            "other"
-          ],
-          "otherSpecifyUse": ""
+          "office": {
+            "selected": false
+          },
+          "retail": {
+            "selected": false
+          },
+          "other": {
+            "selected": false
+          }
         }
       },
       "facilityForRentUp": {
@@ -160,42 +181,45 @@
       "selected": false,
       "aggregatePrincipal": "",
       "issuer": {
-        "options": ["IDA", "BNYC"]
+        "IDA": {
+          "selected": false
+        },
+        "BNYC": {
+          "selected": false
+        }
       },
       "bondTrustee": "",
       "yield": "",
       "repaymentMechanism": {
-        "options": [
-          "lease rental payments",
-          "loan payments",
-          "installment-sale payments"
-        ]
+        "lease rental payments": {
+          "selected": false
+        },
+        "loan payments": {
+          "selected": false
+        },
+        "installment-sale payments": {
+          "selected": false
+        }
       },
       "taxExempt": {
         "isAnyPortionTaxExempt": {
           "selected": false,
           "type": {
-            "options": [
-              "small-issue manufacturing",
-              "501(c)(3)",
-              "exempt facility",
-              "governmental",
-              "other"
-            ],
-            "exemptFacility": {
-              "specificCategory": "",
-              "purpose": {
-                "options": [
-                  "retail",
-                  "other commercial",
-                  "other"
-                ],
-                "otherCommercialSpecify": "",
-                "otherSpecify": ""
-              }
+            "small-issue manufacturing": {
+              "selected": false
             },
-            "governmentalSpecify": "",
-            "otherSpecify": ""
+            "501(c)(3)": {
+              "selected": false
+            },
+            "exempt facility": {
+              "selected": false
+            },
+            "governmental": {
+              "selected": false
+            },
+            "other": {
+              "selected": false
+            }
           }
         }
       },
@@ -203,10 +227,12 @@
         "isAnyPortionTaxable": {
           "selected": false,
           "basisForExemption": {
-            "options": [
-              "secured by a bank letter of credit",
-              "privately placed"
-            ]
+            "secured by a bank letter of credit": {
+              "selected": false
+            },
+            "privately placed": {
+              "selected": false
+            }
           }
         }
       },
@@ -220,7 +246,15 @@
   },
   "projectPremises": {
     "realPropertyInterest": {
-      "options": ["fee title", "ground lease", "space lease(s)"]
+      "fee title": {
+        "selected": false
+      },
+      "ground lease": {
+        "selected": false
+      },
+      "space lease(s)": {
+        "selected": false
+      }
     },
     "isFeeCondo": {
       "selected": false
@@ -237,17 +271,23 @@
     "bonds": {
       "bondSeries": "",
       "taxStatus": {
-        "options": ["BONDS ARE TAX-EXEMPT", "BONDS ARE TAXABLE"]
+        "BONDS ARE TAX-EXEMPT": {
+          "selected": false
+        },
+        "BONDS ARE TAXABLE": {
+          "selected": false
+        }
       },
       "offeringType": {
-        "options": [
-          "BONDS OFFERED BY PRIVATE PLACEMENT",
-          "BONDS OFFERED BY PUBLIC OFFERING",
-          "BONDS DIRECTLY PURCHASED"
-        ],
-        "placementAgentName": "",
-        "underwriterName": "",
-        "purchaserName": ""
+        "BONDS OFFERED BY PRIVATE PLACEMENT": {
+          "selected": false
+        },
+        "BONDS OFFERED BY PUBLIC OFFERING": {
+          "selected": false
+        },
+        "BONDS DIRECTLY PURCHASED": {
+          "selected": false
+        }
       },
       "rating": {
         "areRated": {
@@ -256,37 +296,27 @@
         }
       },
       "interestRate": {
-        "options": [
-          "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX",
-          "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE"
-        ]
+        "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX": {
+          "selected": false
+        },
+        "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE": {
+          "selected": false
+        }
       },
       "bondType": {
-        "options": ["SERIAL BOND", "TERM BOND"],
-        "sinkingFundInstallments": {
-          "options": [
-            "there are no sinking fund installments",
-            "there are sinking fund installments"
-          ]
+        "SERIAL BOND": {
+          "selected": false
+        },
+        "TERM BOND": {
+          "selected": false
         }
       },
       "security": {
-        "options": ["BONDS ARE UNSECURED", "BONDS ARE SECURED"],
-        "securedBy": {
-          "firstMortgage": {
-            "selected": false,
-            "amount": ""
-          },
-          "secondMortgage": {
-            "selected": false,
-            "amount": ""
-          },
-          "debtServiceReserveFund": false,
-          "guaranty": false,
-          "creditEnhancement": {
-            "selected": false,
-            "specify": ""
-          }
+        "BONDS ARE UNSECURED": {
+          "selected": false
+        },
+        "BONDS ARE SECURED": {
+          "selected": false
         }
       },
       "swapArrangement": {
@@ -320,11 +350,15 @@
     "pilot": {
       "general": {
         "pilotBasedOn": {
-          "options": [
-            "negotiated PILOT",
-            "industrial formula PILOT per UTEP",
-            "another formula PILOT per UTEP"
-          ]
+          "negotiated PILOT": {
+            "selected": false
+          },
+          "industrial formula PILOT per UTEP": {
+            "selected": false
+          },
+          "another formula PILOT per UTEP": {
+            "selected": false
+          }
         },
         "pilotCommencementDate": "",
         "pilotExpirationDate": "",
@@ -335,56 +369,55 @@
       },
       "industrial": {
         "landTaxAbatement": {
-          "options": [
-            "LTA INITIALLY equals full land taxes because of Project Facility is located in a Zone",
-            "LTA INITIALLY equals $500 x employee count at time of application"
-          ],
-          "employeeCountAmount": ""
+          "LTA INITIALLY equals full land taxes because of Project Facility is located in a Zone": {
+            "selected": false
+          },
+          "LTA INITIALLY equals $500 x employee count at time of application": {
+            "selected": false
+          }
         },
         "stabilizedPilotOnExistingImprovements": {
-          "options": [
-            "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO",
-            "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT"
-          ]
+          "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO": {
+            "selected": false
+          },
+          "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT": {
+            "selected": false
+          }
         }
       }
     },
     "deferredExemptedMRT": {
-      "options": [
-        "MORTGAGE FINANCING WAS NOT APPLICABLE",
-        "MRT WAS NOT DEFERRED/EXEMPTED",
-        "MRT WAS DEFERRED/EXEMPTED AT CLOSING",
-        "MRT TO BE DEFERRED/EXEMPTED FOR POST-CLOSING MORTGAGE"
-      ],
-      "closingDeferralExemption": {
-        "mortgageAmount": "",
-        "mrtRate": "",
-        "amountDeferredExempted": "",
-        "partialPaymentInLieuOfMRT": {
-          "selected": false,
-          "amount": ""
-        }
+      "MORTGAGE FINANCING WAS NOT APPLICABLE": {
+        "selected": false
       },
-      "postClosingDeferralExemption": {
-        "deferralExemptionDeadline": ""
+      "MRT WAS NOT DEFERRED/EXEMPTED": {
+        "selected": false
+      },
+      "MRT WAS DEFERRED/EXEMPTED AT CLOSING": {
+        "selected": false
+      },
+      "MRT TO BE DEFERRED/EXEMPTED FOR POST-CLOSING MORTGAGE": {
+        "selected": false
       }
     },
     "salesTaxesExemption": {
       "isApplicable": {
         "selected": false,
         "expirationHandling": {
-          "options": [
-            "STE letter has an expiration date which is",
-            "STE letter is to be renewed annually and if renewed may be used throughout the Project Term (or until cap is reached, whichever occurs earlier)"
-          ],
-          "expirationDate": ""
+          "STE letter has an expiration date which is": {
+            "selected": false
+          },
+          "STE letter is to be renewed annually and if renewed may be used throughout the Project Term (or until cap is reached, whichever occurs earlier)": {
+            "selected": false
+          }
         },
         "amountHandling": {
-          "options": [
-            "STE amount is an estimate equal to",
-            "STE amount may not exceed cap, which equals"
-          ],
-          "amount": ""
+          "STE amount is an estimate equal to": {
+            "selected": false
+          },
+          "STE amount may not exceed cap, which equals": {
+            "selected": false
+          }
         }
       }
     },
@@ -410,11 +443,12 @@
       "doesRecaptureApply": {
         "selected": false,
         "recapturePeriod": {
-          "options": [
-            "ten years",
-            "other period of time"
-          ],
-          "otherPeriodSpecify": ""
+          "ten years": {
+            "selected": false
+          },
+          "other period of time": {
+            "selected": false
+          }
         }
       }
     }
@@ -422,28 +456,14 @@
   "subleasing": {
     "projectFacilityForCompanyOccupancy": {
       "subleasingAddressing": {
-        "options": [
-          "CORE DOCUMENT does not address subleasing",
-          "SUBLEASING IS NOT PERMITTED",
-          "SUBLEASING IS PERMITTED WITH CONSENT"
-        ],
-        "subleasingPermittedWithConsent": {
-          "sqFtLimitation": {
-            "options": ["20%", "other"],
-            "otherPercentage": ""
-          },
-          "affiliatesExemptedFrom": {
-            "consent": {
-              "selected": false
-            },
-            "sqFtLimitation": {
-              "selected": false
-            }
-          },
-          "otherConditions": {
-            "selected": false,
-            "specify": ""
-          }
+        "CORE DOCUMENT does not address subleasing": {
+          "selected": false
+        },
+        "SUBLEASING IS NOT PERMITTED": {
+          "selected": false
+        },
+        "SUBLEASING IS PERMITTED WITH CONSENT": {
+          "selected": false
         }
       },
       "preApprovedSubleases": {
@@ -457,12 +477,20 @@
   "insurance": {
     "combinedCGLAndUmbrella": {
       "duringConstruction": {
-        "options": ["10MM", "other amount"],
-        "otherAmount": ""
+        "10MM": {
+          "selected": false
+        },
+        "other amount": {
+          "selected": false
+        }
       },
       "otherThanDuringConstruction": {
-        "options": ["5MM", "other amount"],
-        "otherAmount": ""
+        "5MM": {
+          "selected": false
+        },
+        "other amount": {
+          "selected": false
+        }
       }
     },
     "excessUmbrellaAppliesMultipleLocations": {
@@ -487,8 +515,12 @@
       "isRequired": {
         "selected": false,
         "amount": {
-          "options": ["$1MM", "other amount"],
-          "otherAmount": ""
+          "$1MM": {
+            "selected": false
+          },
+          "other amount": {
+            "selected": false
+          }
         }
       }
     },
@@ -528,11 +560,12 @@
   },
   "onGoingPerAnnumAdminFee": {
     "feeType": {
-      "options": [
-        "fee is subject to increase (as posted from time to time) and is initially set at",
-        "fee is fixed and equals"
-      ],
-      "amount": ""
+      "fee is subject to increase (as posted from time to time) and is initially set at": {
+        "selected": false
+      },
+      "fee is fixed and equals": {
+        "selected": false
+      }
     }
   },
   "postClosingUndertakings": {
@@ -541,11 +574,12 @@
         "selected": false
       },
       "obligationsLocation": {
-        "options": [
-          "clean-up obligations are covenants in the Core Document",
-          "clean-up obligations are in a separate undertaking"
-        ],
-        "seeSection": ""
+        "clean-up obligations are covenants in the Core Document": {
+          "selected": false
+        },
+        "clean-up obligations are in a separate undertaking": {
+          "selected": false
+        }
       }
     },
     "environmentalCleanUps": {
@@ -553,29 +587,32 @@
         "selected": false
       },
       "obligationsLocation": {
-        "options": [
-          "clean-up obligations are covenants in the Core Document",
-          "clean-up obligations are in a separate undertaking"
-        ],
-        "seeSection": ""
+        "clean-up obligations are covenants in the Core Document": {
+          "selected": false
+        },
+        "clean-up obligations are in a separate undertaking": {
+          "selected": false
+        }
       }
     },
     "architectsOrGCsCertificate": {
       "obligationsLocation": {
-        "options": [
-          "covenant to deliver is in Core Document",
-          "covenant to deliver is in a separate undertaking"
-        ],
-        "seeSection": ""
+        "covenant to deliver is in Core Document": {
+          "selected": false
+        },
+        "covenant to deliver is in a separate undertaking": {
+          "selected": false
+        }
       }
     },
     "insuranceBackUp": {
       "obligationsLocation": {
-        "options": [
-          "covenant to deliver is in Core Document",
-          "covenant to deliver is in a separate undertaking"
-        ],
-        "seeSection": "8.1 in most Core Documents"
+        "covenant to deliver is in Core Document": {
+          "selected": false
+        },
+        "covenant to deliver is in a separate undertaking": {
+          "selected": false
+        }
       }
     },
     "otherPostClosingUndertakings": {
@@ -583,11 +620,12 @@
         "selected": false
       },
       "obligationsLocation": {
-        "options": [
-          "other post-closing undertakings are covenants in the Core Document",
-          "other post-closing undertakings are in a separate undertaking"
-        ],
-        "seeSection": ""
+        "other post-closing undertakings are covenants in the Core Document": {
+          "selected": false
+        },
+        "other post-closing undertakings are in a separate undertaking": {
+          "selected": false
+        }
       },
       "description": ""
     }
