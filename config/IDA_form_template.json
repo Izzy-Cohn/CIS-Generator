@@ -4,918 +4,592 @@
     "applicablePrograms": "NYCIDA",
     "from": "",
     "date": ""
+  },
+  "generalInformation": {
+    "program": {
+      "options": [
+        "Industrial/Straight Lease",
+        "Industrial/Bond",
+        "Comm/Straight Lease", 
+        "Civic Facility",
+        "Hudson Yards Comm/Constr",
+        "Govt. Bonds", 
+        "Comm. Growth/Straight Lease"
+      ]
     },
-    "generalInformation": {
-      "program": {
-        "options": [
-          "Industrial/Straight Lease",
-          "Industrial/Bond",
-          "Comm/Straight Lease", 
-          "Civic Facility",
-          "Hudson Yards Comm/Constr",
-          "Govt. Bonds", 
-          "Comm. Growth/Straight Lease"
-        ]
-      },
-      "closingDate": "",
-      "projectManager": "",
-      "projectCentralNo": "",
-      "outsideCounsel": "",
-      "companyContact": {
-        "name": "",
-        "title": "",
-        "address": {
-          "street": "",
-          "state": "NY",
-          "telephone": "",
-          "email": "",
-          "fax": ""
-        }
-      },
-      "realEstateHoldingCompany": {
-        "name": "",
-        "address": {
-          "street": "",
-          "state": "NY"
-        },
-        "ein": "",
-        "ownersInformation": "See ATTACHMENT A-1"
-      },
-      "operatingCompany": {
-        "address": {
-          "street": "",
-          "state": "NY"
-        },
-        "ein": "",
-        "ownersInformation": "See ATTACHMENT A-2"
-      },
-      "companyCounsel": {
-        "lawFirm": "",
-        "attorney": "",
-        "address": "",
+    "closingDate": "",
+    "projectManager": "",
+    "projectCentralNo": "",
+    "outsideCounsel": "",
+    "companyContact": {
+      "name": "",
+      "title": "",
+      "address": {
+        "street": "",
+        "state": "NY",
         "telephone": "",
         "email": "",
         "fax": ""
-      },
-      "projectTermExpiration": "",
-      "coreDocument": {
-        "options": [
-          "Straight Lease Lease",
-          {"Other": {
-            "specify": ""
-          }}
-        ]
-      },
-      "datesOfAuthorizingActions": {
-        "preliminaryInducementEligibility": "",
-        "inducementEligibility": "",
-        "amendingInducementEligibility": "",
-        "authorizing": "",
-        "amending": "",
-        "tefraApproval": ""
       }
     },
-    "initialProjectActivities": {
+    "realEstateHoldingCompany": {
+      "name": "",
+      "address": {
+        "street": "",
+        "state": "NY"
+      },
+      "ein": "",
+      "ownersInformation": "See ATTACHMENT A-1"
+    },
+    "operatingCompany": {
+      "address": {
+        "street": "",
+        "state": "NY"
+      },
+      "ein": "",
+      "ownersInformation": "See ATTACHMENT A-2"
+    },
+    "companyCounsel": {
+      "lawFirm": "",
+      "attorney": "",
+      "address": "",
+      "telephone": "",
+      "email": "",
+      "fax": ""
+    },
+    "projectTermExpiration": "",
+    "coreDocument": {
       "options": [
-        "acquisition of Project Facility",
-        "acquisition of machinery/equipment",
-        {
-          "demolition": {
-            "otherSiteWork": {
-              "selected": false,
-              "specify": ""
-          }}
-        },
-        "ground-up construction",
-        {
-          "construction/installation of": [
-            "Peaking Unit(s)",
-            "dock/wharf"
-          ]
-        },  
-        "construction of square-foot addition to existing improvements",
-        "renovations to existing improvements",
-        "refinancingTaxableLoan"
-      ],
-      "otherSiteWorkSpecify": "",
-      "renovationsToExistingImprovements": {
-        "options": [
-          "gut (i.e., renovation down to core and shell)",
-          "tenant fit-out",
-          "other"
-        ],
-        "otherSpecify": ""
-      },
-      "completionDate": ""
+        "Straight Lease Lease",
+        {"Other": {
+          "specify": ""
+        }}
+      ]
     },
-    "projectOccupancy": {
-      "occupiedByCompany/Affiliates": {
-        "industrial": {
-          "industrial": {
+    "datesOfAuthorizingActions": {
+      "preliminaryInducementEligibility": "",
+      "inducementEligibility": "",
+      "amendingInducementEligibility": "",
+      "authorizing": "",
+      "amending": "",
+      "tefraApproval": ""
+    }
+  },
+  "initialProjectActivities": {
+    "options": [
+      "acquisition of Project Facility",
+      "acquisition of machinery/equipment",
+      {
+        "demolition": {
+          "otherSiteWork": {
             "selected": false,
             "specify": ""
-          },
-          "notForProfit": {
-            "options": [
-              "secondary school",
-              "higher education",
-              "hospital/clinic",
-              "social service organization",
-              "cultural organization",
-              "other"
-            ],
-            "otherSpecify": ""
-          },
-          "commercial": {
-            "options": [
-              "office",
-              "retail",
-              "other"
-            ],
-            "otherSpecifyUse": ""
-          }
-        },
-        "facilityForRentUp": {
-          "conditionsForSubleasingApply": {
-            "selected": false,
-            "seeSection": ""
-          },
-          "idaBnycConsentRequired": {
-            "selected": false,
-            "seeSection": ""
-          },
-          "idaBnycWaivesRightToConsent": {
-            "selected": false,
-            "days": ""
-          }
-        }
-      }
-    },
-    "projectType": {
-      "straightLease": {
-        "selected": false,
-        "totalProject": ""
+        }}
       },
-      "bondFinancing": {
-        "selected": false,
-        "aggregatePrincipal": "",
-        "issuer": {
-          "options": ["IDA", "BNYC"]
-        },
-        "bondTrustee": "",
-        "yield": "",
-        "repaymentMechanism": {
-          "options": [
-            "lease rental payments",
-            "loan payments",
-            "installment-sale payments"
-          ]
-        },
-        "taxExempt": {
-          "isAnyPortionTaxExempt": {
-            "selected": false,
-            "type": {
-              "options": [
-                "small-issue manufacturing",
-                "501(c)(3)",
-                "exempt facility",
-                "governmental",
-                "other"
-              ],
-              "exemptFacility": {
-                "specificCategory": "",
-                "purpose": {
-                  "options": [
-                    "retail",
-                    "other commercial",
-                    "other"
-                  ],
-                  "otherCommercialSpecify": "",
-                  "otherSpecify": ""
-                }
-              },
-              "governmentalSpecify": "",
-              "otherSpecify": ""
-            }
-          }
-        },
-        "taxable": {
-          "isAnyPortionTaxable": {
-            "selected": false,
-            "basisForExemption": {
-              "options": [
-                "secured by a bank letter of credit",
-                "privately placed"
-              ]
-            }
-          }
-        },
-        "refundingBonds": {
-          "areAllOrPartRefundingBonds": {
-            "selected": false,
-            "portionUsedForRefunding": ""
-          }
-        }
-      }
+      "ground-up construction",
+      {
+        "construction/installation of": [
+          "Peaking Unit(s)",
+          "dock/wharf"
+        ]
+      },  
+      "construction of square-foot addition to existing improvements",
+      "renovations to existing improvements",
+      "refinancingTaxableLoan"
+    ],
+    "otherSiteWorkSpecify": "",
+    "renovationsToExistingImprovements": {
+      "options": [
+        "gut (i.e., renovation down to core and shell)",
+        "tenant fit-out",
+        "other"
+      ],
+      "otherSpecify": ""
     },
-    "projectPremises": {
-      "realPropertyInterest": {
-        "options": ["fee title", "ground lease", "space lease(s)"]
-      },
-      "isFeeCondo": {
-        "selected": false
-      },
-      "streetAddress": "",
-      "borough": "",
-      "taxBlock": "",
-      "taxLotREUCLot": "",
-      "landlordContactInfo": "",
-      "spaceLeaseFloorNumbers": "",
-      "multipleTaxLots": "See ATTACHMENT B"
-    },
-    "financingDetails": {
-      "bonds": {
-        "bondSeries": "",
-        "taxStatus": {
-          "options": ["BONDS ARE TAX-EXEMPT", "BONDS ARE TAXABLE"]
-        },
-        "offeringType": {
-          "options": [
-            "BONDS OFFERED BY PRIVATE PLACEMENT",
-            "BONDS OFFERED BY PUBLIC OFFERING",
-            "BONDS DIRECTLY PURCHASED"
-          ],
-          "placementAgentName": "",
-          "underwriterName": "",
-          "purchaserName": ""
-        },
-        "rating": {
-          "areRated": {
-            "selected": false,
-            "rating": ""
-          }
-        },
-        "interestRate": {
-          "options": [
-            "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX",
-            "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE"
-          ]
-        },
-        "bondType": {
-          "options": ["SERIAL BOND", "TERM BOND"],
-          "sinkingFundInstallments": {
-            "options": [
-              "there are no sinking fund installments",
-              "there are sinking fund installments"
-            ]
-          }
-        },
-        "security": {
-          "options": ["BONDS ARE UNSECURED", "BONDS ARE SECURED"],
-          "securedBy": {
-            "firstMortgage": {
-              "selected": false,
-              "amount": ""
-            },
-            "secondMortgage": {
-              "selected": false,
-              "amount": ""
-            },
-            "debtServiceReserveFund": false,
-            "guaranty": false,
-            "creditEnhancement": {
-              "selected": false,
-              "specify": ""
-            }
-          }
-        },
-        "swapArrangement": {
-          "hasBenefitOfSwap": {
-            "selected": false,
-            "counterpartyName": ""
-          }
-        },
-        "multipleBondSeries": "See ATTACHMENT C"
-      },
-      "straightLease": {
-        "mortgageFinancing": {
-          "isApplicable": {
-            "selected": false,
-            "firstMortgage": {
-              "lender": "",
-              "amount": "",
-              "purchaseMoneyMortgage": {
-                "selected": false
-              }
-            },
-            "secondMortgage": {
-              "lender": "",
-              "amount": ""
-            }
-          }
-        }
-      }
-    },
-    "financialAssistance": {
-      "pilot": {
-        "general": {
-          "pilotBasedOn": {
-            "options": [
-              "negotiated PILOT",
-              "industrial formula PILOT per UTEP",
-              "another formula PILOT per UTEP"
-            ]
-          },
-          "pilotCommencementDate": "",
-          "pilotExpirationDate": "",
-          "isPilotGuarantied": {
-            "selected": false,
-            "guarantors": ""
-          }
-        },
+    "completionDate": ""
+  },
+  "projectOccupancy": {
+    "occupiedByCompany/Affiliates": {
+      "industrial": {
         "industrial": {
-          "landTaxAbatement": {
-            "options": [
-              "LTA INITIALLY equals full land taxes because of Project Facility is located in a Zone",
-              "LTA INITIALLY equals $500 x employee count at time of application"
-            ],
-            "employeeCountAmount": ""
-          },
-          "stabilizedPilotOnExistingImprovements": {
-            "options": [
-              "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO",
-              "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT"
-            ]
-          }
-        }
-      },
-      "deferredExemptedMRT": {
-        "options": [
-          "MORTGAGE FINANCING WAS NOT APPLICABLE",
-          "MRT WAS NOT DEFERRED/EXEMPTED",
-          "MRT WAS DEFERRED/EXEMPTED AT CLOSING",
-          "MRT TO BE DEFERRED/EXEMPTED FOR POST-CLOSING MORTGAGE"
-        ],
-        "closingDeferralExemption": {
-          "mortgageAmount": "",
-          "mrtRate": "",
-          "amountDeferredExempted": "",
-          "partialPaymentInLieuOfMRT": {
-            "selected": false,
-            "amount": ""
-          }
-        },
-        "postClosingDeferralExemption": {
-          "deferralExemptionDeadline": ""
-        }
-      },
-      "salesTaxesExemption": {
-        "isApplicable": {
-          "selected": false,
-          "expirationHandling": {
-            "options": [
-              "STE letter has an expiration date which is",
-              "STE letter is to be renewed annually and if renewed may be used throughout the Project Term (or until cap is reached, whichever occurs earlier)"
-            ],
-            "expirationDate": ""
-          },
-          "amountHandling": {
-            "options": [
-              "STE amount is an estimate equal to",
-              "STE amount may not exceed cap, which equals"
-            ],
-            "amount": ""
-          }
-        }
-      },
-      "specialConditions": {
-        "areThereSpecialConditions": {
-          "selected": false,
-          "conditions": {
-            "employmentRetention": false,
-            "employmentRelocationFromOutOfState": false,
-            "employmentGrowth": false,
-            "relocationRetentionOfCompanyHeadquarters": false,
-            "relocationRetentionOfDesignatedOperations": false,
-            "capitalExpenditures": false,
-            "satisfactionOfUTEPCriteria": false,
-            "other": {
-              "selected": false,
-              "specify": ""
-            }
-          }
-        }
-      },
-      "recapture": {
-        "doesRecaptureApply": {
-          "selected": false,
-          "recapturePeriod": {
-            "options": [
-              "ten years",
-              "other period of time"
-            ],
-            "otherPeriodSpecify": ""
-          }
-        }
-      }
-    },
-    "subleasing": {
-      "projectFacilityForCompanyOccupancy": {
-        "subleasingAddressing": {
-          "options": [
-            "CORE DOCUMENT does not address subleasing",
-            "SUBLEASING IS NOT PERMITTED",
-            "SUBLEASING IS PERMITTED WITH CONSENT"
-          ],
-          "subleasingPermittedWithConsent": {
-            "sqFtLimitation": {
-              "options": ["20%", "other"],
-              "otherPercentage": ""
-            },
-            "affiliatesExemptedFrom": {
-              "consent": {
-                "selected": false
-              },
-              "sqFtLimitation": {
-                "selected": false
-              }
-            },
-            "otherConditions": {
-              "selected": false,
-              "specify": ""
-            }
-          }
-        },
-        "preApprovedSubleases": {
-          "areTherePreApprovedSubleases": {
-            "selected": false,
-            "details": "See ATTACHMENT D"
-          }
-        }
-      }
-    },
-    "insurance": {
-      "combinedCGLAndUmbrella": {
-        "duringConstruction": {
-          "options": ["10MM", "other amount"],
-          "otherAmount": ""
-        },
-        "otherThanDuringConstruction": {
-          "options": ["5MM", "other amount"],
-          "otherAmount": ""
-        }
-      },
-      "excessUmbrellaAppliesMultipleLocations": {
-        "selected": false
-      },
-      "selfInsuredRetention": {
-        "isPermitted": {
-          "selected": false,
-          "appliesTo": {
-            "cgl": {
-              "selected": false,
-              "amount": ""
-            },
-            "excessUmbrella": {
-              "selected": false,
-              "amount": "10,000"
-            }
-          }
-        }
-      },
-      "autoLiability": {
-        "isRequired": {
-          "selected": false,
-          "amount": {
-            "options": ["$1MM", "other amount"],
-            "otherAmount": ""
-          }
-        }
-      },
-      "pollutionLiability": {
-        "isRequired": {
-          "selected": false,
-          "amount": ""
-        }
-      },
-      "garageKeepersLiability": {
-        "isRequired": {
-          "selected": false,
-          "amount": ""
-        }
-      },
-      "otherLiabilityCoverage": {
-        "isRequired": {
-          "selected": false,
-          "amountAndType": ""
-        }
-      },
-      "nonStandardInsuranceProvisions": {
-        "areSpecified": {
           "selected": false,
           "specify": ""
+        },
+        "notForProfit": {
+          "options": [
+            "secondary school",
+            "higher education",
+            "hospital/clinic",
+            "social service organization",
+            "cultural organization",
+            "other"
+          ],
+          "otherSpecify": ""
+        },
+        "commercial": {
+          "options": [
+            "office",
+            "retail",
+            "other"
+          ],
+          "otherSpecifyUse": ""
+        }
+      },
+      "facilityForRentUp": {
+        "conditionsForSubleasingApply": {
+          "selected": false,
+          "seeSection": ""
+        },
+        "idaBnycConsentRequired": {
+          "selected": false,
+          "seeSection": ""
+        },
+        "idaBnycWaivesRightToConsent": {
+          "selected": false,
+          "days": ""
+        }
+      }
+    }
+  },
+  "projectType": {
+    "straightLease": {
+      "selected": false,
+      "totalProject": ""
+    },
+    "bondFinancing": {
+      "selected": false,
+      "aggregatePrincipal": "",
+      "issuer": {
+        "options": ["IDA", "BNYC"]
+      },
+      "bondTrustee": "",
+      "yield": "",
+      "repaymentMechanism": {
+        "options": [
+          "lease rental payments",
+          "loan payments",
+          "installment-sale payments"
+        ]
+      },
+      "taxExempt": {
+        "isAnyPortionTaxExempt": {
+          "selected": false,
+          "type": {
+            "options": [
+              "small-issue manufacturing",
+              "501(c)(3)",
+              "exempt facility",
+              "governmental",
+              "other"
+            ],
+            "exemptFacility": {
+              "specificCategory": "",
+              "purpose": {
+                "options": [
+                  "retail",
+                  "other commercial",
+                  "other"
+                ],
+                "otherCommercialSpecify": "",
+                "otherSpecify": ""
+              }
+            },
+            "governmentalSpecify": "",
+            "otherSpecify": ""
+          }
+        }
+      },
+      "taxable": {
+        "isAnyPortionTaxable": {
+          "selected": false,
+          "basisForExemption": {
+            "options": [
+              "secured by a bank letter of credit",
+              "privately placed"
+            ]
+          }
+        }
+      },
+      "refundingBonds": {
+        "areAllOrPartRefundingBonds": {
+          "selected": false,
+          "portionUsedForRefunding": ""
+        }
+      }
+    }
+  },
+  "projectPremises": {
+    "realPropertyInterest": {
+      "options": ["fee title", "ground lease", "space lease(s)"]
+    },
+    "isFeeCondo": {
+      "selected": false
+    },
+    "streetAddress": "",
+    "borough": "",
+    "taxBlock": "",
+    "taxLotREUCLot": "",
+    "landlordContactInfo": "",
+    "spaceLeaseFloorNumbers": "",
+    "multipleTaxLots": "See ATTACHMENT B"
+  },
+  "financingDetails": {
+    "bonds": {
+      "bondSeries": "",
+      "taxStatus": {
+        "options": ["BONDS ARE TAX-EXEMPT", "BONDS ARE TAXABLE"]
+      },
+      "offeringType": {
+        "options": [
+          "BONDS OFFERED BY PRIVATE PLACEMENT",
+          "BONDS OFFERED BY PUBLIC OFFERING",
+          "BONDS DIRECTLY PURCHASED"
+        ],
+        "placementAgentName": "",
+        "underwriterName": "",
+        "purchaserName": ""
+      },
+      "rating": {
+        "areRated": {
+          "selected": false,
+          "rating": ""
+        }
+      },
+      "interestRate": {
+        "options": [
+          "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX",
+          "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE"
+        ]
+      },
+      "bondType": {
+        "options": ["SERIAL BOND", "TERM BOND"],
+        "sinkingFundInstallments": {
+          "options": [
+            "there are no sinking fund installments",
+            "there are sinking fund installments"
+          ]
+        }
+      },
+      "security": {
+        "options": ["BONDS ARE UNSECURED", "BONDS ARE SECURED"],
+        "securedBy": {
+          "firstMortgage": {
+            "selected": false,
+            "amount": ""
+          },
+          "secondMortgage": {
+            "selected": false,
+            "amount": ""
+          },
+          "debtServiceReserveFund": false,
+          "guaranty": false,
+          "creditEnhancement": {
+            "selected": false,
+            "specify": ""
+          }
+        }
+      },
+      "swapArrangement": {
+        "hasBenefitOfSwap": {
+          "selected": false,
+          "counterpartyName": ""
+        }
+      },
+      "multipleBondSeries": "See ATTACHMENT C"
+    },
+    "straightLease": {
+      "mortgageFinancing": {
+        "isApplicable": {
+          "selected": false,
+          "firstMortgage": {
+            "lender": "",
+            "amount": "",
+            "purchaseMoneyMortgage": {
+              "selected": false
+            }
+          },
+          "secondMortgage": {
+            "lender": "",
+            "amount": ""
+          }
+        }
+      }
+    }
+  },
+  "financialAssistance": {
+    "pilot": {
+      "general": {
+        "pilotBasedOn": {
+          "options": [
+            "negotiated PILOT",
+            "industrial formula PILOT per UTEP",
+            "another formula PILOT per UTEP"
+          ]
+        },
+        "pilotCommencementDate": "",
+        "pilotExpirationDate": "",
+        "isPilotGuarantied": {
+          "selected": false,
+          "guarantors": ""
+        }
+      },
+      "industrial": {
+        "landTaxAbatement": {
+          "options": [
+            "LTA INITIALLY equals full land taxes because of Project Facility is located in a Zone",
+            "LTA INITIALLY equals $500 x employee count at time of application"
+          ],
+          "employeeCountAmount": ""
+        },
+        "stabilizedPilotOnExistingImprovements": {
+          "options": [
+            "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO",
+            "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT"
+          ]
         }
       }
     },
-    "feesPaidAtClosing": {
-      "projectFinancingFee": "",
-      "lessApplicationFee": "",
-      "lessPreDevelopmentFee": "",
-      "administrativeFeeProrated": "",
-      "balancePaid": "0.00",
-      "bondIssuanceChargeNYSTaxFinance": "WAIVED",
-      "bondIssuanceChargeNYSHealth": "WAIVED"
+    "deferredExemptedMRT": {
+      "options": [
+        "MORTGAGE FINANCING WAS NOT APPLICABLE",
+        "MRT WAS NOT DEFERRED/EXEMPTED",
+        "MRT WAS DEFERRED/EXEMPTED AT CLOSING",
+        "MRT TO BE DEFERRED/EXEMPTED FOR POST-CLOSING MORTGAGE"
+      ],
+      "closingDeferralExemption": {
+        "mortgageAmount": "",
+        "mrtRate": "",
+        "amountDeferredExempted": "",
+        "partialPaymentInLieuOfMRT": {
+          "selected": false,
+          "amount": ""
+        }
+      },
+      "postClosingDeferralExemption": {
+        "deferralExemptionDeadline": ""
+      }
     },
-    "onGoingPerAnnumAdminFee": {
-      "feeType": {
+    "salesTaxesExemption": {
+      "isApplicable": {
+        "selected": false,
+        "expirationHandling": {
+          "options": [
+            "STE letter has an expiration date which is",
+            "STE letter is to be renewed annually and if renewed may be used throughout the Project Term (or until cap is reached, whichever occurs earlier)"
+          ],
+          "expirationDate": ""
+        },
+        "amountHandling": {
+          "options": [
+            "STE amount is an estimate equal to",
+            "STE amount may not exceed cap, which equals"
+          ],
+          "amount": ""
+        }
+      }
+    },
+    "specialConditions": {
+      "areThereSpecialConditions": {
+        "selected": false,
+        "conditions": {
+          "employmentRetention": false,
+          "employmentRelocationFromOutOfState": false,
+          "employmentGrowth": false,
+          "relocationRetentionOfCompanyHeadquarters": false,
+          "relocationRetentionOfDesignatedOperations": false,
+          "capitalExpenditures": false,
+          "satisfactionOfUTEPCriteria": false,
+          "other": {
+            "selected": false,
+            "specify": ""
+          }
+        }
+      }
+    },
+    "recapture": {
+      "doesRecaptureApply": {
+        "selected": false,
+        "recapturePeriod": {
+          "options": [
+            "ten years",
+            "other period of time"
+          ],
+          "otherPeriodSpecify": ""
+        }
+      }
+    }
+  },
+  "subleasing": {
+    "projectFacilityForCompanyOccupancy": {
+      "subleasingAddressing": {
         "options": [
-          "fee is subject to increase (as posted from time to time) and is initially set at",
-          "fee is fixed and equals"
+          "CORE DOCUMENT does not address subleasing",
+          "SUBLEASING IS NOT PERMITTED",
+          "SUBLEASING IS PERMITTED WITH CONSENT"
         ],
+        "subleasingPermittedWithConsent": {
+          "sqFtLimitation": {
+            "options": ["20%", "other"],
+            "otherPercentage": ""
+          },
+          "affiliatesExemptedFrom": {
+            "consent": {
+              "selected": false
+            },
+            "sqFtLimitation": {
+              "selected": false
+            }
+          },
+          "otherConditions": {
+            "selected": false,
+            "specify": ""
+          }
+        }
+      },
+      "preApprovedSubleases": {
+        "areTherePreApprovedSubleases": {
+          "selected": false,
+          "details": "See ATTACHMENT D"
+        }
+      }
+    }
+  },
+  "insurance": {
+    "combinedCGLAndUmbrella": {
+      "duringConstruction": {
+        "options": ["10MM", "other amount"],
+        "otherAmount": ""
+      },
+      "otherThanDuringConstruction": {
+        "options": ["5MM", "other amount"],
+        "otherAmount": ""
+      }
+    },
+    "excessUmbrellaAppliesMultipleLocations": {
+      "selected": false
+    },
+    "selfInsuredRetention": {
+      "isPermitted": {
+        "selected": false,
+        "appliesTo": {
+          "cgl": {
+            "selected": false,
+            "amount": ""
+          },
+          "excessUmbrella": {
+            "selected": false,
+            "amount": "10,000"
+          }
+        }
+      }
+    },
+    "autoLiability": {
+      "isRequired": {
+        "selected": false,
+        "amount": {
+          "options": ["$1MM", "other amount"],
+          "otherAmount": ""
+        }
+      }
+    },
+    "pollutionLiability": {
+      "isRequired": {
+        "selected": false,
         "amount": ""
       }
     },
-    "postClosingUndertakings": {
-      "titleCleanUps": {
-        "areSecuredByEscrow": {
-          "selected": false
-        },
-        "obligationsLocation": {
-          "options": [
-            "clean-up obligations are covenants in the Core Document",
-            "clean-up obligations are in a separate undertaking"
-          ],
-          "seeSection": ""
-        }
-      },
-      "environmentalCleanUps": {
-        "areSecuredByEscrow": {
-          "selected": false
-        },
-        "obligationsLocation": {
-          "options": [
-            "clean-up obligations are covenants in the Core Document",
-            "clean-up obligations are in a separate undertaking"
-          ],
-          "seeSection": ""
-        }
-      },
-      "architectsOrGCsCertificate": {
-        "obligationsLocation": {
-          "options": [
-            "covenant to deliver is in Core Document",
-            "covenant to deliver is in a separate undertaking"
-          ],
-          "seeSection": ""
-        }
-      },
-      "insuranceBackUp": {
-        "obligationsLocation": {
-          "options": [
-            "covenant to deliver is in Core Document",
-            "covenant to deliver is in a separate undertaking"
-          ],
-          "seeSection": "8.1 in most Core Documents"
-        }
-      },
-      "otherPostClosingUndertakings": {
-        "areSecuredByEscrow": {
-          "selected": false
-        },
-        "obligationsLocation": {
-          "options": [
-            "other post-closing undertakings are covenants in the Core Document",
-            "other post-closing undertakings are in a separate undertaking"
-          ],
-          "seeSection": ""
-        },
-        "description": ""
+    "garageKeepersLiability": {
+      "isRequired": {
+        "selected": false,
+        "amount": ""
       }
     },
-    "documentsToBeDelivered": {
-      "items": [
-        {
-          "name": "Closing Information Statement",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["LGL", "COMPL", "RETs", "FINANCE", "DOF"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": false,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "Distribution List",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": ["LGL", "RETS"],
-          "includeInTranscript": false,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Core Document",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["RETS", "FINANCE", "COMPL"],
-          "distributeWithin30DaysTo": ["DOF"],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Check/Invoice",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["FINANCE"],
-          "distributeWithin30DaysTo": ["LGL", "RETs"],
-          "includeInTranscript": false,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "RETS Summary",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": ["LGL"],
-          "includeInTranscript": true,
-          "responsibleParty": ""
-        },
-        {
-          "name": "CGL/regular",
-          "applicableToTransaction": "YES",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "WorkComp/regular",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "Certificate/inlieu/auto",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "CGL/construction",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "WorkComp/construction",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "STE Letter",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Tax Continuation Letter",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["DOF"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Tax Directive Letter",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["DOF"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "ST-60",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": [],
-          "distributeWithin30DaysTo": ["NYSTF within 60 days of closing"],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "Cost of Issuance Certificate",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": [],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "412c Filing",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["DOF"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "LGL"
-        },
-        {
-          "name": "PILOT Summary",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": ["LGL", "RETs", "DOF"],
-          "includeInTranscript": false,
-          "responsibleParty": "RETs"
-        },
-        {
-          "name": "Bond Issuance Charge (NYCIDA only)",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["NYS Budget or NYS DOH"],
-          "distributeWithin30DaysTo": ["LGL"],
-          "includeInTranscript": false,
-          "responsibleParty": ""
-        },
-        {
-          "name": "Undertaking [Describe]",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Undertaking [Describe]",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        },
-        {
-          "name": "Undertaking [Describe]",
-          "applicableToTransaction": "",
-          "deliverAtClosingTo": ["COMPL"],
-          "distributeWithin30DaysTo": [],
-          "includeInTranscript": true,
-          "responsibleParty": "COUNSEL"
-        }
-      ]
+    "otherLiabilityCoverage": {
+      "isRequired": {
+        "selected": false,
+        "amountAndType": ""
+      }
+    },
+    "nonStandardInsuranceProvisions": {
+      "areSpecified": {
+        "selected": false,
+        "specify": ""
+      }
     }
   },
-  "attachments": {
-    "attachmentA1": {
-      "title": "INDIVIDUALS/ENTITIES OWNING/CONTROLLING REAL ESTATE HOLDING COMPANY/DEVELOPMENT ENTITY",
-      "individualOwners": [
-        {
-          "name": "",
-          "percentageOwnershipOrControl": ""
-        }
+  "feesPaidAtClosing": {
+    "projectFinancingFee": "",
+    "lessApplicationFee": "",
+    "lessPreDevelopmentFee": "",
+    "administrativeFeeProrated": "",
+    "balancePaid": "0.00",
+    "bondIssuanceChargeNYSTaxFinance": "WAIVED",
+    "bondIssuanceChargeNYSHealth": "WAIVED"
+  },
+  "onGoingPerAnnumAdminFee": {
+    "feeType": {
+      "options": [
+        "fee is subject to increase (as posted from time to time) and is initially set at",
+        "fee is fixed and equals"
       ],
-      "entityOwners": [
-        {
-          "name": "",
-          "percentageOwnershipOrControl": ""
-        }
-      ],
-      "ownersOfTenPercentEntities": [
-        {
-          "tenPercentEntityNameAndActualPercentage": "",
-          "individualAndEntityOwners": "",
-          "percentageOwnershipOrControl": ""
-        }
-      ]
-    },
-    "attachmentA2": {
-      "title": "INDIVIDUALS/ENTITIES OWNING/CONTROLLING PROJECT/OPERATING COMPANY",
-      "individualOwners": [
-        {
-          "name": "",
-          "percentageOwnershipOrControl": ""
-        }
-      ],
-      "entityOwners": [
-        {
-          "name": "",
-          "percentageOwnershipOrControl": ""
-        }
-      ],
-      "ownersOfTenPercentEntities": [
-        {
-          "tenPercentEntityNameAndActualPercentage": "",
-          "individualAndEntityOwners": "",
-          "percentageOwnershipOrControl": ""
-        }
-      ]
-    },
-    "attachmentB": {
-      "title": "MULTIPLE TAX LOTS",
-      "taxLots": [
-        {
-          "realPropertyInterest": {
-            "options": ["fee title", "ground lease", "space lease(s)"]
-          },
-          "isFeeCondo": {
-            "selected": false
-          },
-          "streetAddress": "",
-          "borough": "",
-          "taxBlock": "",
-          "taxLotREUCLot": "",
-          "landlordContactInfo": "",
-          "spaceLeaseFloorNumbers": ""
-        }
-      ]
-    },
-    "attachmentC": {
-      "title": "MULTIPLE BOND SERIES",
-      "bondSeries": {
-        "name": "",
-        "taxStatus": {
-          "options": ["BONDS ARE TAX-EXEMPT", "BONDS ARE TAXABLE"]
-        },
-        "offeringType": {
-          "options": [
-            "BONDS OFFERED BY PRIVATE PLACEMENT",
-            "BONDS OFFERED BY PUBLIC OFFERING",
-            "BONDS DIRECTLY PURCHASED"
-          ],
-          "placementAgentName": "",
-          "underwriterName": "",
-          "purchaserName": ""
-        },
-        "rating": {
-          "areRated": {
-            "selected": false,
-            "rating": ""
-          }
-        },
-        "interestRate": {
-          "options": [
-            "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX",
-            "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE"
-          ]
-        },
-        "bondType": {
-          "options": ["SERIAL BOND", "TERM BOND"],
-          "sinkingFundInstallments": {
-            "options": [
-              "there are no sinking fund installments",
-              "there are sinking fund installments"
-            ]
-          }
-        },
-        "security": {
-          "options": ["BONDS ARE UNSECURED", "BONDS ARE SECURED"],
-          "securedBy": {
-            "firstMortgage": {
-              "selected": false,
-              "amount": ""
-            },
-            "secondMortgage": {
-              "selected": false,
-              "amount": ""
-            },
-            "debtServiceReserveFund": false,
-            "guaranty": false,
-            "creditEnhancement": {
-              "selected": false,
-              "specify": ""
-            }
-          }
-        },
-        "swapArrangement": {
-          "hasBenefitOfSwap": {
-            "selected": false,
-            "counterpartyName": ""
-          }
-        }
+      "amount": ""
+    }
+  },
+  "postClosingUndertakings": {
+    "titleCleanUps": {
+      "areSecuredByEscrow": {
+        "selected": false
+      },
+      "obligationsLocation": {
+        "options": [
+          "clean-up obligations are covenants in the Core Document",
+          "clean-up obligations are in a separate undertaking"
+        ],
+        "seeSection": ""
       }
     },
-    "attachmentD": {
-      "title": "PRE-APPROVED SUBLEASES",
-      "subleases": [
-        {
-          "subtenant": {
-            "name": "",
-            "permittedUse": "",
-            "term": {
-              "from": "",
-              "to": ""
-            },
-            "mayTermBeRenewed": {
-              "selected": false,
-              "renewalRights": ""
-            },
-            "squareFeet": "",
-            "willSubleaseAccrueAgainstLimitation": {
-              "selected": false
-            }
-          }
-        }
-      ]
+    "environmentalCleanUps": {
+      "areSecuredByEscrow": {
+        "selected": false
+      },
+      "obligationsLocation": {
+        "options": [
+          "clean-up obligations are covenants in the Core Document",
+          "clean-up obligations are in a separate undertaking"
+        ],
+        "seeSection": ""
+      }
+    },
+    "architectsOrGCsCertificate": {
+      "obligationsLocation": {
+        "options": [
+          "covenant to deliver is in Core Document",
+          "covenant to deliver is in a separate undertaking"
+        ],
+        "seeSection": ""
+      }
+    },
+    "insuranceBackUp": {
+      "obligationsLocation": {
+        "options": [
+          "covenant to deliver is in Core Document",
+          "covenant to deliver is in a separate undertaking"
+        ],
+        "seeSection": "8.1 in most Core Documents"
+      }
+    },
+    "otherPostClosingUndertakings": {
+      "areSecuredByEscrow": {
+        "selected": false
+      },
+      "obligationsLocation": {
+        "options": [
+          "other post-closing undertakings are covenants in the Core Document",
+          "other post-closing undertakings are in a separate undertaking"
+        ],
+        "seeSection": ""
+      },
+      "description": ""
     }
   }
-} 
+}
