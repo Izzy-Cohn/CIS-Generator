@@ -296,80 +296,22 @@
     }
   },  
   "financingDetails": {
-    "bonds": {
-      "bondSeries": "",
-      "taxStatus": {
-        "BONDS ARE TAX-EXEMPT": {
-          "selected": false
-        },
-        "BONDS ARE TAXABLE": {
-          "selected": false
-        }
+    "mortgageFinancing": {
+      "isNotApplicable": {
+        "selected": false
       },
-      "offeringType": {
-        "BONDS OFFERED BY PRIVATE PLACEMENT": {
-          "selected": false
-        },
-        "BONDS OFFERED BY PUBLIC OFFERING": {
-          "selected": false
-        },
-        "BONDS DIRECTLY PURCHASED": {
-          "selected": false
-        }
-      },
-      "rating": {
-        "areRated": {
-          "selected": false,
-          "rating": ""
-        }
-      },
-      "interestRate": {
-        "BONDS INITIALLY HAVE A FIXED INTEREST RATE OR ARE TIED TO A FIXED INDEX": {
-          "selected": false
-        },
-        "BONDS INITIALLY HAVE A VARIABLE INTEREST RATE": {
-          "selected": false
-        }
-      },
-      "bondType": {
-        "SERIAL BOND": {
-          "selected": false
-        },
-        "TERM BOND": {
-          "selected": false
-        }
-      },
-      "security": {
-        "BONDS ARE UNSECURED": {
-          "selected": false
-        },
-        "BONDS ARE SECURED": {
-          "selected": false
-        }
-      },
-      "swapArrangement": {
-        "hasBenefitOfSwap": {
-          "selected": false,
-          "counterpartyName": ""
-        }
-      },
-      "multipleBondSeries": "See ATTACHMENT C"
-    },
-    "straightLease": {
-      "mortgageFinancing": {
-        "isApplicable": {
-          "selected": false,
-          "firstMortgage": {
-            "lender": "",
-            "amount": "",
-            "purchaseMoneyMortgage": {
-              "selected": false
-            }
-          },
-          "secondMortgage": {
-            "lender": "",
-            "amount": ""
+      "isApplicable": {
+        "selected": false,
+        "firstMortgage": {
+          "lender": "",
+          "amount": "",
+          "purchaseMoneyMortgage": {
+            "selected": false
           }
+        },
+        "secondMortgage": {
+          "lender": "",
+          "amount": ""
         }
       }
     }
