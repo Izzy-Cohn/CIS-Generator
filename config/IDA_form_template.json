@@ -361,29 +361,43 @@
         "selected": false
       },
       "MRT WAS DEFERRED/EXEMPTED AT CLOSING": {
-        "selected": false
+        "selected": false,
+        "Mortgage amount": "",
+        "MRT rate": "",
+        "Amount of deferred/exempted MRT": "",
+        "partialPaymentInLieueOfMRT": {
+          "selected": false,
+          "amount": ""
+        }
       },
       "MRT TO BE DEFERRED/EXEMPTED FOR POST-CLOSING MORTGAGE": {
-        "selected": false
+        "selected": false,
+        "Deferral/Exemption to occur no later than": ""
       }
     },
     "salesTaxesExemption": {
+      "isNotApplicable": {
+        "selected": false
+      },
       "isApplicable": {
         "selected": false,
         "expirationHandling": {
-          "STE letter has an expiration date which is": {
-            "selected": false
+          "STE letter has an expiration date": {
+            "selected": false,
+            "expiration date": ""
           },
           "STE letter is to be renewed annually and if renewed may be used throughout the Project Term (or until cap is reached, whichever occurs earlier)": {
             "selected": false
           }
         },
         "amountHandling": {
-          "STE amount is an estimate equal to": {
-            "selected": false
+          "STE amount is an estimate": {
+            "selected": false,
+            "estimate amount": ""
           },
-          "STE amount may not exceed cap, which equals": {
-            "selected": false
+          "STE amount may not exceed cap": {
+            "selected": false,
+            "cap amount": ""
           }
         }
       }
