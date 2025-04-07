@@ -318,42 +318,39 @@
   },
   "financialAssistance": {
     "pilot": {
-      "general": {
-        "pilotBasedOn": {
-          "negotiated PILOT": {
-            "selected": false
+      "pilotType": {
+        "industrial formula PILOT per UTEP": {
+          "selected": false,
+          "landTaxAbatement": {
+            "Land Tax Abatement initially equals full land taxes because of Project Facility is located in a Zone": {
+              "selected": false
+            },
+            "Land Tax Abatement initially equals $500 x employee count at time of application": {
+              "selected": false,
+              "LTA amount": ""
+            }
           },
-          "industrial formula PILOT per UTEP": {
-            "selected": false
-          },
-          "another formula PILOT per UTEP": {
-            "selected": false
+          "stabilizedPilotOnExistingImprovements": {
+            "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO": {
+              "selected": false
+            },
+            "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT": {
+              "selected": false
+            }
           }
         },
-        "pilotCommencementDate": "",
-        "pilotExpirationDate": "",
-        "isPilotGuarantied": {
-          "selected": false,
-          "guarantors": ""
+        "another formula PILOT per UTEP": {
+          "selected": false
+        },
+        "negotiated PILOT": {
+          "selected": false
         }
       },
-      "industrial": {
-        "landTaxAbatement": {
-          "LTA INITIALLY equals full land taxes because of Project Facility is located in a Zone": {
-            "selected": false
-          },
-          "LTA INITIALLY equals $500 x employee count at time of application": {
-            "selected": false
-          }
-        },
-        "stabilizedPilotOnExistingImprovements": {
-          "there are NO Existing Improvements or, if there are, they will be demolished as part of the Project; THEREFORE, STABILIZED PILOT EQUALS ZERO": {
-            "selected": false
-          },
-          "there ARE Existing Improvements which will not be demolished; THEREFORE, PILOT IS STABILIZED AT A FIXED AMOUNT": {
-            "selected": false
-          }
-        }
+      "pilotCommencementDate": "",
+      "pilotExpirationDate": "",
+      "isPilotGuarantied": {
+        "selected": false,
+        "guarantors": ""
       }
     },
     "deferredExemptedMRT": {
