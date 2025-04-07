@@ -406,13 +406,33 @@
       "areThereSpecialConditions": {
         "selected": false,
         "conditions": {
-          "employmentRetention": false,
-          "employmentRelocationFromOutOfState": false,
-          "employmentGrowth": false,
-          "relocationRetentionOfCompanyHeadquarters": false,
-          "relocationRetentionOfDesignatedOperations": false,
-          "capitalExpenditures": false,
-          "satisfactionOfUTEPCriteria": false,
+          "employmentRetention": {
+            "selected": false
+          },
+          "employmentRelocationFromOutOfState": {
+            "selected": false
+          },
+          "employmentGrowth": {
+            "selected": false
+          },
+          "relocationRetentionOfCompanyHeadquarters": {
+            "selected": false
+          },
+          "relocationRetentionOfDesignatedOperations": {
+            "selected": false
+          },
+          "capitalExpenditures": {
+            "selected": false
+          },
+          "satisfactionOfUTEPCriteria": {
+            "selected": false,
+            "forHudsonYardsCommercialConstruction": {
+              "selected": false
+            },
+            "forPeakingUnits": {
+              "selected": false
+            }
+          },
           "other": {
             "selected": false,
             "specify": ""
@@ -421,34 +441,65 @@
       }
     },
     "recapture": {
-      "doesRecaptureApply": {
+      "recaptureDoesNotApply": {
+        "selected": false
+      },
+      "recaptureDoesApply": {
         "selected": false,
         "recapturePeriod": {
           "ten years": {
             "selected": false
           },
           "other period of time": {
-            "selected": false
+            "selected": false,
+            "specify": ""
           }
         }
       }
     }
   },
   "subleasing": {
-    "projectFacilityForCompanyOccupancy": {
-      "subleasingAddressing": {
-        "CORE DOCUMENT does not address subleasing": {
+    "projectFacilityForDeveloperRent-up": {
+      "selected": false
+    },      
+    "projectFacilityForOwnerOperatorOccupancy": {
+      "selected": false,
+      "subleasingProvisions": {
+        "CORE DOCUMENT DOES NOT ADDRESS SUBLEASING": {
           "selected": false
         },
         "SUBLEASING IS NOT PERMITTED": {
           "selected": false
         },
         "SUBLEASING IS PERMITTED WITH CONSENT": {
-          "selected": false
-        }
-      },
-      "preApprovedSubleases": {
-        "areTherePreApprovedSubleases": {
+          "selected": false,
+          "squareFootageLimitation": {
+            "20%": {
+              "selected": false
+            },
+            "other%": {
+              "selected": false,
+              "specify": ""
+            }
+          },
+          "subleasesToAffiliatesExemptFrom": {
+            "consent": {
+              "selected": false
+            },
+            "squareFootageLimitation": {
+              "selected": false
+            },
+            "other": {
+              "selected": false,
+              "specify": ""
+            }
+          },
+          "otherConditions": {
+            "selected": false,
+            "specify": ""
+          }
+        },
+        "THERE ARE PRE-APPROVED SUBLEASES": {
           "selected": false,
           "details": "See ATTACHMENT D"
         }
