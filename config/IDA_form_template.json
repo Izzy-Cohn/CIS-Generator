@@ -510,29 +510,29 @@
     "projectFinancingFee": "",
     "lessApplicationFee": "",
     "lessPreDevelopmentFee": "",
-    "administrativeFeeProrated": "",
-    "balancePaid": "0.00",
-    "bondIssuanceChargeNYSTaxFinance": "WAIVED",
-    "bondIssuanceChargeNYSHealth": "WAIVED"
+    "administrativeFeeProratedToNextJuly1": "",
+    "balancePaid": ""
   },
   "onGoingPerAnnumAdminFee": {
-    "feeType": {
-      "fee is subject to increase (as posted from time to time) and is initially set at": {
-        "selected": false
-      },
-      "fee is fixed and equals": {
-        "selected": false
-      }
+    "fee is subject to increase (as posted from time to time)": {
+      "selected": false,
+      "feeInitiallySetAt": ""
+    },
+    "fee is fixed": {
+      "selected": false,
+      "amount": ""
     }
   },
   "postClosingUndertakings": {
     "titleCleanUps": {
+      "selected": false,
       "areSecuredByEscrow": {
         "selected": false
       },
       "obligationsLocation": {
         "clean-up obligations are covenants in the Core Document": {
-          "selected": false
+          "selected": false,
+          "section": ""
         },
         "clean-up obligations are in a separate undertaking": {
           "selected": false
@@ -540,12 +540,14 @@
       }
     },
     "environmentalCleanUps": {
+      "selected": false,
       "areSecuredByEscrow": {
         "selected": false
       },
       "obligationsLocation": {
         "clean-up obligations are covenants in the Core Document": {
-          "selected": false
+          "selected": false,
+          "section": ""
         },
         "clean-up obligations are in a separate undertaking": {
           "selected": false
@@ -553,32 +555,34 @@
       }
     },
     "architectsOrGCsCertificate": {
-      "obligationsLocation": {
-        "covenant to deliver is in Core Document": {
-          "selected": false
-        },
-        "covenant to deliver is in a separate undertaking": {
-          "selected": false
-        }
+      "selected": false,
+      "covenant to deliver is in Core Document": {
+        "selected": false,
+        "section": ""
+      },
+      "covenant to deliver is in a separate undertaking": {
+        "selected": false
       }
     },
     "insuranceBackUp": {
-      "obligationsLocation": {
-        "covenant to deliver is in Core Document": {
-          "selected": false
-        },
-        "covenant to deliver is in a separate undertaking": {
-          "selected": false
-        }
+      "selected": false,
+      "covenant to deliver is in Core Document": {
+        "selected": false,
+        "section": ""
+      },
+      "covenant to deliver is in a separate undertaking": {
+        "selected": false
       }
     },
     "otherPostClosingUndertakings": {
+      "selected": false,
       "areSecuredByEscrow": {
         "selected": false
       },
       "obligationsLocation": {
         "other post-closing undertakings are covenants in the Core Document": {
-          "selected": false
+          "selected": false,
+          "section": ""
         },
         "other post-closing undertakings are in a separate undertaking": {
           "selected": false
