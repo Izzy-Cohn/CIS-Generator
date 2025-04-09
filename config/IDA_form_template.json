@@ -2,7 +2,6 @@
   "CIS": {
     "projectName": "",
     "applicablePrograms": "NYCIDA",
-    "from": "",
     "date": ""
   },
   "generalInformation": {
@@ -10,7 +9,7 @@
       "Industrial/Straight Lease": {
         "selected": false
       },
-      "Industrial/Bond": {
+      "FRESH/Straight Lease": {
         "selected": false
       },
       "Comm/Straight Lease": {
@@ -22,16 +21,11 @@
       "Hudson Yards Comm/Constr": {
         "selected": false
       },
-      "Govt. Bonds": {
-        "selected": false
-      },
       "Comm. Growth/Straight Lease": {
         "selected": false
       }
     },
     "closingDate": "",
-    "projectManager": "",
-    "projectCentralNo": "",
     "outsideCounsel": "",
     "companyContact": {
       "name": "",
@@ -83,7 +77,7 @@
       "preliminaryInducementEligibility": "",
       "inducementEligibility": "",
       "amendingInducementEligibility": "",
-      "authorizing": "",
+      "authorizingResolutionsPassedOn": "",
       "amending": "",
       "tefraApproval": ""
     }
@@ -141,27 +135,8 @@
         "selected": false,
         "specify": ""
       },
-      "notForProfit": {
-        "selected": false,
-        "secondary school": {
-          "selected": false
-        },
-        "higher education": {
-          "selected": false
-        },
-        "hospital/clinic": {
-          "selected": false
-        },
-        "social service organization": {
-          "selected": false
-        },
-        "cultural organization": {
-          "selected": false
-        },
-        "other": {
-          "selected": false,
-          "specify": ""
-        }
+      "FRESH Supermarket": {
+        "selected": false
       },
       "commercial": {
         "selected": false,
@@ -339,6 +314,9 @@
             }
           }
         },
+        "FRESH formula PILOT per UTEP": {
+          "selected": false
+        },
         "another formula PILOT per UTEP": {
           "selected": false
         },
@@ -511,7 +489,7 @@
     "lessApplicationFee": "",
     "lessPreDevelopmentFee": "",
     "administrativeFeeProratedToNextJuly1": "",
-    "balancePaid": ""
+    "totalPaidAtClosing": ""
   },
   "onGoingPerAnnumAdminFee": {
     "fee is subject to increase (as posted from time to time)": {
